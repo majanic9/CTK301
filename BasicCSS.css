@@ -1,0 +1,31 @@
+h1{
+    color:coral; 
+    background-color: greenyellow;
+}
+.bluetext {
+    color: blue;
+}
+h2{
+    color: deepskyblue;
+    background-color: deeppink;
+}
+.bluetext {
+    color: blue;
+}
+
+#greenhead {
+    color: darkcyan;
+    background-color: blueviolet;
+}
+a {
+    color: crimson;
+    text-decoration: none;
+}
+a:visited {
+    color: #aaa;
+}
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
