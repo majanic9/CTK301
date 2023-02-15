@@ -1,0 +1,49 @@
+/* This is a stylesheet for FixAndStyle.html*/
+
+h1{
+    color:rgb(255, 255, 255); 
+    
+}
+
+
+  .purple {
+    color: white;
+    background-color: rgb(204, 170, 244);
+
+  }
+  a {
+    color: rgb(20, 220, 127);
+    text-decoration: none; }
+    a:hover {
+        color: rgb(255, 29, 29);
+        text-decoration: underline;
+    }
+   h2{
+    color: rgb(18, 41, 247);
+    
+   } 
+   #blue {
+    color: blue;
+   }
+   #imthedoctor {
+    color: gold;
+   }
+   h3{ 
+    background-color: yellow;
+   }
+   #red {
+    color: red;
+   }
+h4{
+    color: yellow;
+    background-color: darkgreen;
+}
+#highlight {
+    background-color: lightgreen;
+}
+h5 { color: red;
+
+}
+.yellow { 
+    background-color: yellow;
+}
