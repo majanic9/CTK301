@@ -1,0 +1,105 @@
+/* This is a stylesheet for assignment4.html*/
+/* This is a stylesheet for assignment4.1.html*/
+/* This is a stylesheet for assignment4.2.html*/
+p {
+    color: #ff0000;
+    background-color: #c8d594;  
+     	
+  }
+  h1{
+    color:coral; 
+    background-color: greenyellow;
+}
+h2{
+    color: deepskyblue;
+    background-color: deeppink;
+}
+  .specialp {
+    color: #0000ff;
+    background-color: darksalmon;
+  }
+  #specialid { color: aqua;
+    background-color: hotpink;
+
+  }
+  a {
+    color: crimson;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(46, 171, 0);
+}
+a:hover {
+    color: rgb(232, 255, 24);
+    text-decoration: underline;
+}
+#divexample {
+    background-color: darkseagreen;
+}
+ .spanstyle { color: rgb(243, 7, 7)
+    
+    ;
+background-color: rgb(244, 237, 237);}
+
+header{ 
+    color: darkviolet;
+    background-color: antiquewhite;
+}
+main{ color: #c8d594;
+background-color: aquamarine;
+}
+nav{
+    color: lightblue;
+    background-color: lightgray;
+}
+
+.sanserif {
+  font-family:sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+.boxmodel {
+  border: 2px solid #0000ff;
+  padding: 20px 20px 20px 20px;
+  margin: 10px 10px 10px 10px;
+}
+.textright {
+  text-align: right;
+}
+
+.textleft {
+  text-align: left;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.textjustify {
+  text-align: justify;
+}
+
+.textspace {
+  letter-spacing: 20px;
+}
+
+.textheight {
+  line-height: 20px;
+}           
+.fontcombined {
+  font: italic 20px Arial, Helvetica, sans-serif;
+  color: orange;
+}
+.imgbox {
+  border: 2px solid #0a0a0a;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+  background-color: #ffff08;
+}
+body {
+  background-color: #fcfcfe;
+  background-image: url(backgroundimage.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
+}      
