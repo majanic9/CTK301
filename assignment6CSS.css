@@ -86,7 +86,7 @@ width: 150px;
   }
   nav li a:hover{
     background-color: #8d0000;
-    max-width: fit-content;
+    text-decoration: none;
 color: #ffffff;
   }
   h2 {
