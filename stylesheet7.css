@@ -1,0 +1,116 @@
+body {
+    background-image: url(a5bg.png);
+}
+
+#page {
+    width: 960px;
+    border: 3px solid black;
+    margin: 10px auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+nav {
+    grid-column: span 12;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10px 10px 10px 10px;
+}
+
+nav li {   
+    width: 180px;
+    margin: 6px;
+    background-color: green;
+    text-align: center;
+    display: inline-block;
+    border: 3px solid black;  
+}
+
+nav li a {
+    font-family: Helvetica;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 12px; 
+}
+
+h1 {
+    font-family: Helvetica;
+    font-weight: normal;
+    color: black;
+    background-color: lightblue;
+    border-bottom: 3px solid black;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+    
+}
+
+main h2 {
+    font-family: Helvetica;
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.float {
+    float: right;
+    padding: 10px 10px 10px 10px;
+    width: 360px;
+    margin-right: 10px;
+}
+
+.bolded {
+    font-family: Georgia;
+    font-weight: bold;
+    text-align: justify;
+}
+
+header {
+    grid-column: span 12;
+}
+  
+main {
+    grid-column: span 8;
+    padding: 10px;
+    font-family: Georgia;
+}
+  
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+}
+
+
+aside {
+    grid-column: span 4;
+    color: white;
+    background-color: lightblue;
+    margin: 10px;
+    margin-top: 0;
+    padding: 10px;
+}
+
+aside h2 {
+    font-family: Helvetica;
+    border-bottom: 3px solid white;
+}
+
+#italicized {
+    font-style: italic;
+}
+
+footer {
+    grid-column: span 12;
+    clear: both;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+    background-color: lightblue;
+    border-top: 3px solid black;
+    padding: 0px 0px 0px 10px;
+}
