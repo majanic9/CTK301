@@ -1,0 +1,245 @@
+body {
+    background-color: #9197A3;
+  }
+  
+  main {
+    margin-left: 0%;
+    margin-right: 0%;
+
+  }
+  
+  #wrapper {
+    display: grid;
+    border: solid #0F08AD 5px;
+    background-color: #ffffff;
+    margin-right: 13%;
+    margin-left: 13%;
+    padding-block-end: 15px;
+  }
+  
+  footer {
+    border-top: solid #0F08AD 5px;
+    background-color: #EB0101;
+    padding: 5px;
+    padding-left: 30px;
+  }
+  
+  header {
+    background-image: linear-gradient(to bottom, #37A6F5, #0176F5, #1651d2, #1543c0, #1335ae);
+  }
+  
+  h1 {
+    margin-left: 3%;
+    color: #03C2F5;
+    font-style: italic;
+    font-family: calibri;
+  }
+  
+  nav {
+    width: 100%;
+    grid-column: span 12;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+  }
+  
+  nav li {
+    padding: 0px;
+    width: 25%;
+    color: #000000;
+    display: inline-block;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  }
+  
+  nav li a {
+    color: #ffffff;
+    display: block;
+    padding: 15px;
+    background-color: #42cc00;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  nav li a:hover {
+    background-color: #008400;
+    background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  }
+  
+  
+  h2 {
+    border-bottom: solid #0F08AD 3px;
+    color: #1371F5;
+    font-family: calibri;
+  }
+  
+  
+  #nolink {
+    color: #03C2F5;
+    display: grid;
+    padding: 15px;
+    background-color: #42cc00;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #first {
+    font-weight: bold;
+    text-align: justify;
+}
+
+ 
+  aside{
+    grid-column: span 4;
+    color: rgb(0, 0, 0);
+    background-color: lightblue;
+    float: left; 
+        width: 300px;
+        height: 640px;
+        padding: 20px;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        
+    
+  }
+  .float{
+        float: left;
+        padding: 10px 10px 10px 10px;
+        width: 360px;
+        margin-left: 3%;
+        margin-right: 3%;
+    
+  }
+  
+  #toppara {
+    font-family: georgia;
+  }
+  
+  #secondpara {
+    font-family: georgia;
+  }
+
+  
+  #thirdpara {float: right;
+    font-family: georgia;
+       display: block;
+        grid-column: span 4;
+        color: rgb(0, 0, 0);
+        background-color: lightblue;
+        margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+       
+  }
+  
+  
+  a:hover {
+    color: #0001EB;
+  }
+  
+  .house {
+    text-decoration: none;
+    color: #EB0901;
+    font-weight: bold;
+  }
+  
+  .number {
+    text-decoration: none;
+    color: #EB0901;
+    font-weight: bold;
+  }
+  
+  .building {
+    float: left;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    border: solid #0F08AD 3px;
+  
+  }
+  
+  .group {
+    float: right;
+    border: solid #0F08AD 3px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+  }
+  
+  .Luther {
+    border: solid #0F08AD 3px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .Allison {
+    border: solid #0F08AD 3px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .Diego {
+    border: solid #0F08AD 3px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .names {
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .comma {
+    color: #000000;
+  }
+  
+  .and {
+    color: #000000;
+    font-weight: normal;
+    font-family: georgia;
+  }
+  
+  #paragraphone {
+    font-family: georgia;
+  }
+  
+  .parafont {
+    font-family: georgia;
+    padding-left: 20px;
+    
+  }
+  
+  .parafont2 {
+    font-family: georgia;
+  }
+  
+  .parafont3 {
+    font-family: georgia;
+  }
+  
+  .top {
+    color: #03C2F5;
+    text-decoration: none;
+  }
+  
+  .top2 {
+    color: #03C2F5;
+  }
+  
+  .top3 {
+      color: #03C2F5;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
