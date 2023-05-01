@@ -43,8 +43,9 @@ nav {
   
   .centered img {
     margin-bottom: 20px;
-    width: 500px;
+    width: 400px;
     height: 400px;
+
   }
   header {
     background-color: #444;
@@ -120,13 +121,13 @@ nav {
   }
   
   footer p {
-    margin: 50px;
+    
     text-align: center;
-    margin-left: 50px;
+    
   
   }
   .video {
-    margin-left: 200px;
+    margin-left: 20px;
     width: 75%;
     height: 350px;
     object-fit: cover;
@@ -144,19 +145,25 @@ nav {
     height: 600px;
     width: 800px;
   }
+  #myCarousel img{
+    height: 500px;
+
+  }
   .columns {
     display: flex;
+    margin-top: 20px;
+    margin-left: 200px;
   }
   
   .column {
     flex: 1;
-    margin: 0 10px;
+    margin: 0px;
     text-align: center;
   }
   
   .circle {
-    width: 50px;
-    height: 50px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     margin-bottom: 10px;
   }
